@@ -1,0 +1,258 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+body::-webkit-scrollbar{
+    background-color: transparent;    
+}
+
+#navbar{
+    height: 40px;
+    color: #5ce1e6;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    font-size: 25px;
+    background-color: black;
+    z-index: 2;
+}
+
+#port{
+    margin-right: 720px;
+    padding: 0 0 0 20px;
+}
+
+.home{
+    text-decoration: none;
+    margin-left: 50px;
+    color: white;
+    font-size: 20px;
+}
+
+.home:hover{
+    color: #5ce1e6;
+    text-decoration: underline;
+    scale:1.1;
+    transition: all ease 0.3s;
+}
+
+#main{
+    width: 1000px;
+    height: 500px;
+    background-size: cover;
+    position: relative;
+    left: 13%;
+    top: 30px;
+    color: white;
+}
+
+#name{
+    font-size: 80px;
+    position: relative;
+    top: 29%;
+    left: 10%;
+    color: #5ce1e6;
+    text-decoration: underline;
+}
+
+#intro{
+    position: relative;
+    left:15%;
+    top:30%
+}
+
+#photo{
+    position: relative;
+    left: 55%;
+    bottom: 30%;
+    filter: drop-shadow(0 0 100px #5ce1e6);
+}
+
+#scroll{
+    font-size: 20px;
+    height: 99px;
+    text-align: center;
+}
+
+#Intro{
+    font-size: 70px;
+    text-align: center;
+    color: #5ce1e6;
+}
+
+#int{
+    height: 520px;
+}
+
+#me{
+    height: 520px;
+    position: relative;
+    left:5%;
+    bottom: 10%;
+    filter: drop-shadow(0 0 5px);
+}
+
+#int{
+    font-size: 25px;
+    position: relative;
+}
+
+.myself{
+    position: relative;
+    left:30%;
+    bottom:85%;
+}
+
+.my::marker{
+    content: "✔";
+}
+
+#skills {
+    font-size: 70px;
+    text-align: center;
+    color: #5ce1e6;
+}
+
+#parent:has(div:hover) div:not(:hover){
+    scale:0.8;
+    opacity: 0.5;
+}
+
+.skill{
+    height:200px;
+    width: 200px;
+    display: inline-block;
+    border: 2px solid #5ce1e6;
+    border-radius: 5px;
+    background-size: cover;
+    cursor: pointer;
+}
+
+#html{
+    background-image: url(html.jpg);
+    transition: all ease 0.5s;
+}
+
+#html:hover{
+    scale:1.1;
+}
+
+#css{
+    background-image: url(css.png);
+    transition: all ease 0.5s;
+}
+
+#css:hover{
+    scale:1.1;
+}
+
+#python{
+    background-image: url(python.jpg);
+    transition: all ease 0.5s;
+}
+
+#python:hover{
+    scale:1.1;
+}
+
+#video{
+    background-image: url(vn.jpg);
+    transition: all ease 0.5s;
+}
+
+#video:hover{
+    scale:1.1;
+}
+
+#Achievement{
+    font-size: 70px;
+    text-align: center;
+    color: #5ce1e6;
+}
+
+.cert{
+    height: 300px;
+    width: 220px;
+    display: inline-block;
+    border: 2px solid #5ce1e6;
+    border-radius: 5px;
+    background-size: cover;
+    transition: all ease 0.5s;
+    cursor: pointer;
+}
+
+#par:has(div:hover) div:not(:hover){
+    scale:0.8;
+    opacity: 0.5;
+}
+
+#ht{
+    background-image: url(ht.png);
+}
+
+#ht:hover{
+    scale:1.1;
+}
+
+#cs{
+    background-image: url(cs.png);
+}
+
+#cs:hover{
+    scale:1.1;
+}
+
+
+#py{
+    background-image: url(pyth.png);
+}
+
+#py:hover{
+    scale:1.1;
+}
+
+
+#pyt{
+    background-image: url(pyt.png);
+}
+
+#pyt:hover{
+    scale:1.1;
+}
+
+
+#back{
+    background-color: #5ce1e6;
+    height: 40px;
+    width:100px;
+    text-align: center;
+    padding-top: 15px;
+    border-radius: 10px;
+    position: relative;
+    left: 45%;
+}
+
+#back:active{
+    background-color: white;
+}
+
+#click{
+    text-decoration: none;
+    color: white;
+}
+
+#click:active{
+    color: #5ce1e6;
+}
+
+#footer{
+    font-size: 20px;
+    text-align: center;
+}
